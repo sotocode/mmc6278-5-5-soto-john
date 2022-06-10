@@ -9,8 +9,8 @@ form.onsubmit = function(e) {
     } 
  
     var ul = document.getElementById('todo-list');
-    var btn = document.createElement('button');
     var li = document.createElement('li');
+    var btn = document.createElement('button');
     ul.appendChild(li);
     li.appendChild(btn);
     btn.textContent = (input.value);
